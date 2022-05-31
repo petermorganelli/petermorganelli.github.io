@@ -1,0 +1,60 @@
+.wrapper {
+display:inline-grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap:10px;
+border: 2px solid black;
+}
+
+.grid-item {
+    border: 1px solid black;
+
+
+}
+
+.mainphoto > img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.bio{
+text-align:center;
+padding: 20px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
+  .linked {
+        justify: center;
+  }
+
+  .h5 {
+      padding:10px;
+      margin: 20px;
+  }
+  .projects-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 300px 300px;
+  }
+  h3{
+      font-family: cursive;
+      text-align: center;
+  }
+  .project-item{
+      border:1px solid black;
+      padding:10px;
+  }
